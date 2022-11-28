@@ -1,0 +1,23 @@
+{VERSION 2 3 "IBM INTEL NT" "2.3" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 242 1 220 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 242 1 136 0 0 0 0 0 0 
+0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 242 1 8 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "y:=proc(x)" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 29 "evalf(ln(x)/LambertW(ln(x)));" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 4 "end;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"
+yG:6#%\"xG6\"F(F(-%&evalfG6#*&-%#lnG6#9$\"\"\"-%)LambertWG6#F-!\"\"F(F
+(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "yp:=proc(x)" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 33 "evalf(1/(x*(1+LambertW(ln(x)))));" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#ypG:6#%\"xG6\"F(F(-%&evalfG6#*&9$!\"\",&\"\"\"F0-%)LambertWG6
+#-%#lnG6#F-F0F.F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "y(27)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+********H!\"*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "yp(27);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+fY$[w\"!#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 32 "evalf((y(27.01)-y(26.99))/0.02);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#$\"'%[w\"!\"(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+}{MARK "5 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

@@ -1,0 +1,33 @@
+{VERSION 2 3 "IBM INTEL NT" "2.3" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 233 1 220 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 233 1 136 0 0 0 0 0 0 
+0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 233 1 8 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "y:=proc(x)" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 29 "evalf(ln(x)/LambertW(ln(x)));" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 4 "end;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"
+yG:6#%\"xG6\"F(F(-%&evalfG6#*&-%#lnG6#9$\"\"\"-%)LambertWG6#F-!\"\"F(F
+(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "y0:=proc(x)" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 32 "evalf(ln(x)/LambertW(-1,ln(x)));" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#y0G:6#%\"xG6\"F(F(-%&evalfG6#*&-%#lnG6#9$\"\"\"-%)LambertWG6$
+!\"\"F-F5F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "y(0.725);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+p2+tc!#5" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 10 "y0(0.725);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+$\"+^E-&*>!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "evalf(exp(
+1)^(-ln(2)/5));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+Lc]0()!#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "y(0.8705505633);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#$\"+yk;%\\)!#5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "y0(0.8705505633);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+$\"+doKcW!#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "x:=(-ln(2)/
+5)/y(exp(1)^(-ln(2)/5))/(-ln(2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%\"xG$\"+-rbaB!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "x0:=(-
+ln(2)/5)/y0(exp(1)^(-ln(2)/5))/(-ln(2));" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#x0G$\"+O6+)[%!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+15 "evalf(2^x-5*x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$!\"\"!\"*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "evalf(2^x0-5*x0);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}}{MARK "11 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

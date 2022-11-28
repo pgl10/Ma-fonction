@@ -1,0 +1,31 @@
+{VERSION 2 3 "IBM INTEL NT" "2.3" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 243 1 220 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 243 1 136 0 0 0 0 0 0 
+0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 243 1 8 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "y:=proc(x)" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 29 "evalf(ln(x)/LambertW(ln(x)));" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 4 "end;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"
+yG:6#%\"xG6\"F(F(-%&evalfG6#*&-%#lnG6#9$\"\"\"-%)LambertWG6#F-!\"\"F(F
+(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "y0:=proc(x)" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 32 "evalf(ln(x)/LambertW(-1,ln(x)));" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#y0G:6#%\"xG6\"F(F(-%&evalfG6#*&-%#lnG6#9$\"\"\"-%)LambertWG6$
+!\"\"F-F5F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "evalf(exp(
+1)^(-ln(3)/6));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+w<$oK)!#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "y(0.8326831776);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#$\"+dxmSz!#5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "y0(0.8326831776);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+$\"+Sc&y\"o!#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "x := -1 -(-ln(3)/6)/y(exp(1)
+^(-ln(3)/6))/ln(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"xG$!+6,5,z!
+#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "x0 := -1 -(-ln(3)/6)/
+y0(exp(1)^(-ln(3)/6))/ln(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#x0G
+$\"+#RhXW\"!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "evalf(3^
+x-(2*x+2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 20 "eval(3^x0-(2*x0+2));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$!\"$!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{MARK "0 3 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }
