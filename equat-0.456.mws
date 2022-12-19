@@ -1,0 +1,28 @@
+{VERSION 2 3 "IBM INTEL NT" "2.3" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 }{CSTYLE "2D Math" -1 2 "Times" 0 1 243 1 220 0 0 0 2 0 0 0 
+0 0 0 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 243 1 136 0 0 0 0 0 0 
+0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 243 1 8 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "e := exp(1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"eG-%$expG6#\"\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "y := proc(x)" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 44 "evalf(fsolve(n^n=x,n,evalf(1/e)..infinity));" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"yG:6#%\"xG6\"F(F(-%&evalfG6#-%'fsolveG6%/)%\"nGF19$F1;-F*6#*
+$%\"eG!\"\"%)infinityGF(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "y0 := proc(x)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "evalf(fsolve(n
+^n=x,n,0..evalf(1/e)));" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#y0G:6#%\"xG6\"F(F(-%&evalfG6#-%'fso
+lveG6%/)%\"nGF19$F1;\"\"!-F*6#*$%\"eG!\"\"F(F(" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 9 "y(0.725);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"+o2+tc!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "y0(0.725);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+^E-&*>!#5" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 11 "z := 0.456;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%\"zG$\"$c%!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "x := 1
+/y(1/z);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"xG$\"+qkEjh!#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "z^x;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+qkEjh!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}}{MARK "8 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 }

@@ -1,0 +1,9 @@
+
+Avec un nombre z tel que : 0 < z < e^(1/e) = 1.44466786
+
+ce programme equat contient le code source en C++ de la fonction y(x)
+
+et l'utilise pour calculer la, ou une, solution de l'équation : z^x = x.
+
+Voir les fichiers : main.cpp, essais.bat et essais.txt.
+
