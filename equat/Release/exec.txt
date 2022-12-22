@@ -1,20 +1,20 @@
 
 Voici l'affichage de la console Windows
-obtenu en effectuant essais.bat.
+obtenu en effectuant exec.bat.
 
 ----------------------------------------
 
 Pour trouver une solution de : z^x = x
 
-0.123^0.4171816066 = 0.4171816066
+0.0001^0.1838714341 = 0.1838714341
 
 Pour trouver une solution de : z^x = x
 
-0.456^0.616326647 = 0.616326647
+0.1357^0.4265669646 = 0.4265669646
 
 Pour trouver une solution de : z^x = x
 
-0.789^0.8228327794 = 0.8228327794
+1.4446^2.675413354 = 2.675413354
 
 Appuyez sur une touche pour continuer...
 ----------------------------------------

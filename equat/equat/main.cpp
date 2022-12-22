@@ -1,8 +1,10 @@
 #include <iostream>
+#include <iomanip>
 #include <sstream>
 #include <string>
 #include <cmath>
 
+//  y(x) = m  <==>  m^m = x
 double y(double x) {
     if(x < 0.6922006276) return 0.0;
     double a = 0.3678794412;
@@ -15,12 +17,12 @@ double y(double x) {
         if(mm > x) b = m; 
         else a = m;
         n = m;
-    }while(abs(mm-x) > x/1000000000.0 );
+    }while(abs(mm-x) > x/1000000000000.0 );
     return m;
 }
 
 int main(int argc, char ** argv) {
-    std::cout << "Pour trouver la solution de : z^x = x" << std::endl << std::endl;
+    std::cout << "Pour trouver une solution de : z^x = x" << std::endl << std::endl;
     if(argc == 1 || argc > 2) {
         std::cout << "Faire : equat z" << std::endl << std::endl
                   << "avec : 0 < z < e^(1/e) = 1.44466786" << std::endl;
@@ -31,11 +33,11 @@ int main(int argc, char ** argv) {
     iss.str(argv[1]);
     double z;
     iss >> z;
-        if(!((0 < z) && (z < 1.44466786))) {
+    if(!((0 < z) && (z < 1.44466786))) {
         std::cout << "z = " << z << " : erreur !" << std::endl;
         return 0;
     }
     double x = 1.0/y(1.0/z);
-    std::cout << z << "^" << x << " = " << pow(z,x) << std::endl;
+    std::cout << z << "^" << std::setprecision(10) << x << " = " << pow(z,x) << std::endl;
     return 0;
 }
