@@ -4,21 +4,42 @@
 #include <string>
 #include <cmath>
 
-//  y(x) = m  <==>  m^m = x
+//  Calcul de y(x) = m  <==>  m^m = x
+//  xmin = (1/e)^(1/e) = 0.69220062755534636
+//  ymin = y(xmin) = 1/e = 0.36787944117144232 = amin
+//  bmax = 143.0 <==> xmax = bmax^bmax voisin de : 1.633e+308
 double y(double x) {
-    if(x < 0.6922006276) return 0.0;
-    double a = 0.3678794412;
-    double b = 1000000000.0;
+    if(x < 0.69220062755534636) return 0.0;
+    double a = 0.36787944117144232;
+    double b = 143.0;
     double m, mm, n=0.0;
     do {
         m = (a+b)/2.0;
         if(m == n) break;
         mm = pow(m,m);
         if(mm > x) b = m; 
-        else a = m;
+        if(mm < x) a = m; 
         n = m;
-    }while(abs(mm-x) > x/1000000000000.0 );
+    }while((abs(mm-x) > 0.0) && (b-a > 0.0));
     return m;
+}
+
+//  Calcul de y'(x) = 1/(x(1+ln(y(x)))  
+//  ou : y'(m^m) = 1/((m^m)(1+ln(m)))
+double yp(double x) {
+    if(x < 0.69220062755534636) return 0.0;
+    double a = 0.36787944117144232;
+    double b = 143.0;
+    double m, mm, n=0.0;
+    do {
+        m = (a+b)/2.0;
+        if(m == n) break;
+        mm = pow(m,m);
+        if(mm > x) b = m; 
+        if(mm < x) a = m; 
+        n = m;
+    }while((abs(mm-x) > 0.0) && (b-a > 0.0));
+    return 1.0/(mm*(1.0+log(m)));
 }
 
 int main(int argc, char ** argv) {
